@@ -1,0 +1,7 @@
+kagglehub
+pandas
+numpy
+mlxtend
+matplotlib
+seaborn
+jupyter
