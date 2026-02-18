@@ -21,6 +21,23 @@ This report presents the results of Market Basket Analysis (Association Rule Min
 
 ---
 
+## Why Support Values Are Low
+
+The support values throughout this analysis are notably low (0.0002--0.0045). This is not a flaw in the methodology but a direct consequence of the dataset's characteristics:
+
+**1. 90% of baskets contain only a single item.**
+Only 1,032 out of 10,257 baskets have 2 or more unique products. Since associations can only be discovered from multi-item baskets, the theoretical maximum support for any pair is capped at roughly 1,032 / 10,257 ≈ 10%. No pair can ever exceed this ceiling regardless of how dominant it is.
+
+**2. High product diversity spreads co-occurrences thin.**
+Among the 1,032 multi-item baskets, items are distributed across 200 unique products, yielding C(200, 2) = 19,900 possible product pairs. The total number of pair occurrences in the data is only ~1,168 (967 two-item baskets × 1 pair + 63 three-item baskets × 3 pairs + 2 four-item baskets × 6 pairs). On average, any specific product pair appears roughly 1,168 / 19,900 ≈ 0.06 times -- most pairs never co-occur at all.
+
+**3. The dataset was not originally designed for co-purchase analysis.**
+Each row in the original Kaggle dataset uses TransactionID as a row-level identifier rather than a true transaction grouping. Baskets were reconstructed by grouping on (CustomerID, Date, Location) per the assignment instructions, but the underlying data was not generated with multi-item shopping baskets in mind. For comparison, a typical supermarket dataset has an average basket size of 10--30 items and 95%+ multi-item baskets, producing support values in the 1--5% range.
+
+**Implication for thresholds:** To accommodate this sparsity, very low minimum support thresholds were used (0.0001 for product-level, 0.001 for category-level). Despite the low absolute support values, the discovered rules exhibit high **lift** values (up to 19.35), confirming that the co-occurrences -- while rare -- are far more frequent than random chance would predict.
+
+---
+
 ## Top 5 Product Associations
 
 The following product-level associations were identified using the Apriori algorithm with a minimum support of 0.0001. The low support threshold reflects the sparse nature of the data (most baskets contain only one item).

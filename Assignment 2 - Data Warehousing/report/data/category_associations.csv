@@ -3,27 +3,27 @@ Food,Electric Household Essentials,0.004484742127327679,0.032740213523131674,0.2
 Beverages,Butchers,0.004192258945110656,0.030583214793741112,0.22390580595246437,Beverages + Butchers
 Milk Products,Beverages,0.004192258945110656,0.030626780626780627,0.22342737474316424,Beverages + Milk Products
 Butchers,Furniture,0.0040947645510383155,0.029978586723768737,0.21309103536084265,Butchers + Furniture
-Furniture,Computers And Electric Accessories,0.003997270156965975,0.028413028413028413,0.21148942847056057,Computers And Electric Accessories + Furniture
+Computers And Electric Accessories,Furniture,0.003997270156965975,0.02975326560232221,0.21148942847056057,Computers And Electric Accessories + Furniture
 Patisserie,Butchers,0.003607292580676611,0.02728613569321534,0.19976723326574572,Butchers + Patisserie
-Electric Household Essentials,Computers And Electric Accessories,0.003704786974748952,0.026704146170063246,0.19876954083188586,Computers And Electric Accessories + Electric Household Essentials
+Computers And Electric Accessories,Electric Household Essentials,0.003704786974748952,0.027576197387518143,0.19876954083188586,Computers And Electric Accessories + Electric Household Essentials
 Butchers,Food,0.003704786974748952,0.027123483226266953,0.19801108003688267,Butchers + Food
 Milk Products,Electric Household Essentials,0.003704786974748952,0.027065527065527065,0.19508862340907315,Electric Household Essentials + Milk Products
 Computers And Electric Accessories,Butchers,0.0035097981866042704,0.02612481857764877,0.1912649993939639,Butchers + Computers And Electric Accessories
 Butchers,Electric Household Essentials,0.003607292580676611,0.026409707351891507,0.19036146753924887,Butchers + Electric Household Essentials
-Beverages,Electric Household Essentials,0.003607292580676611,0.026315789473684213,0.18968450641713208,Beverages + Electric Household Essentials
+Electric Household Essentials,Beverages,0.003607292580676611,0.02600140548137737,0.18968450641713208,Beverages + Electric Household Essentials
 Beverages,Food,0.0035097981866042704,0.025604551920341397,0.18692234095867738,Beverages + Food
-Computers And Electric Accessories,Milk Products,0.0034123037925319296,0.025399129172714082,0.18555474923399454,Computers And Electric Accessories + Milk Products
-Beverages,Computers And Electric Accessories,0.0034123037925319296,0.02489331436699858,0.1852908022222819,Beverages + Computers And Electric Accessories
-Furniture,Electric Household Essentials,0.003607292580676611,0.02564102564102564,0.1848208011243851,Electric Household Essentials + Furniture
+Milk Products,Computers And Electric Accessories,0.0034123037925319296,0.02492877492877493,0.18555474923399454,Computers And Electric Accessories + Milk Products
+Computers And Electric Accessories,Beverages,0.0034123037925319296,0.025399129172714082,0.1852908022222819,Beverages + Computers And Electric Accessories
+Electric Household Essentials,Furniture,0.003607292580676611,0.02600140548137737,0.1848208011243851,Electric Household Essentials + Furniture
 Furniture,Patisserie,0.0034123037925319296,0.024255024255024255,0.18346886709718568,Furniture + Patisserie
 Butchers,Milk Products,0.0034123037925319296,0.024982155603140616,0.1825085256562773,Butchers + Milk Products
 Milk Products,Food,0.0034123037925319296,0.02492877492877493,0.18198892843020958,Food + Milk Products
 Computers And Electric Accessories,Food,0.0033148093984595884,0.02467343976777939,0.1801248908883368,Computers And Electric Accessories + Food
-Milk Products,Patisserie,0.003119820610314907,0.02279202279202279,0.17240249098656177,Milk Products + Patisserie
+Patisserie,Milk Products,0.003119820610314907,0.02359882005899705,0.17240249098656177,Milk Products + Patisserie
 Patisserie,Computers And Electric Accessories,0.003022326216242566,0.022861356932153392,0.17016613791951912,Computers And Electric Accessories + Patisserie
 Milk Products,Furniture,0.0032173150043872476,0.023504273504273504,0.16707091707091706,Furniture + Milk Products
-Electric Household Essentials,Patisserie,0.003022326216242566,0.02178496134926212,0.16478491781665308,Electric Household Essentials + Patisserie
+Patisserie,Electric Household Essentials,0.003022326216242566,0.022861356932153392,0.16478491781665308,Electric Household Essentials + Patisserie
 Patisserie,Food,0.0029248318221702253,0.022123893805309734,0.1615122980505779,Food + Patisserie
 Furniture,Food,0.003022326216242566,0.021483021483021482,0.15683370202943156,Food + Furniture
-Beverages,Patisserie,0.0028273374280978845,0.02062588904694168,0.15601751029091504,Beverages + Patisserie
+Patisserie,Beverages,0.0028273374280978845,0.021386430678466076,0.15601751029091504,Beverages + Patisserie
 Beverages,Furniture,0.0025348542458808617,0.01849217638691323,0.13144438891238322,Beverages + Furniture
